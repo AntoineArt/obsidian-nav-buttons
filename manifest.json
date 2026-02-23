@@ -1,0 +1,9 @@
+{
+  "id": "nav-arrows",
+  "name": "Nav Arrows",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Adds back/forward navigation arrows next to the sidebar collapse button",
+  "author": "AntoineArt",
+  "isDesktopOnly": false
+}
