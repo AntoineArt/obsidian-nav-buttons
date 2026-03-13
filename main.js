@@ -17,8 +17,7 @@ module.exports = class NavArrowsPlugin extends Plugin {
     document.head.appendChild(this.styleEl);
 
     this.registerEvent(this.app.workspace.on('layout-change', () => {
-      if (!document.querySelector('.nav-arrows-plugin')) this.inject();
-      else this.updateState();
+      this.updateState();
     }));
 
     this.registerEvent(this.app.workspace.on('active-leaf-change', () => {
@@ -36,6 +35,8 @@ module.exports = class NavArrowsPlugin extends Plugin {
   }
 
   inject() {
+    document.querySelectorAll('.nav-arrows-plugin').forEach(el => el.remove());
+
     var wrapper = document.createElement('div');
     wrapper.className = 'nav-arrows-plugin';
 
@@ -95,7 +96,6 @@ module.exports = class NavArrowsPlugin extends Plugin {
   onunload() {
     if (this.observer) this.observer.disconnect();
     if (this.styleEl) this.styleEl.remove();
-    var el = document.querySelector('.nav-arrows-plugin');
-    if (el) el.remove();
+    document.querySelectorAll('.nav-arrows-plugin').forEach(el => el.remove());
   }
 };
