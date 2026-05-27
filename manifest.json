@@ -1,9 +1,10 @@
 {
   "id": "nav-arrows",
   "name": "Nav Arrows",
-  "version": "1.0.0",
-  "minAppVersion": "1.0.0",
-  "description": "Adds back/forward navigation arrows to the top bar, next to the sidebar collapse button.",
+  "version": "1.0.1",
+  "minAppVersion": "1.8.0",
+  "description": "Navigate back and forward with arrows in the top bar, next to the sidebar collapse button.",
   "author": "AntoineArt",
+  "authorUrl": "https://github.com/AntoineArt",
   "isDesktopOnly": false
 }

@@ -1,0 +1,15 @@
+{
+  "name": "obsidian-nav-buttons",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.39.0",
+    "eslint-plugin-obsidianmd": "^0.1.9",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.46.0"
+  }
+}

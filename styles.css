@@ -1,0 +1,27 @@
+.nav-arrows-plugin {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav-arrows-plugin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: var(--radius-s);
+  color: var(--icon-color);
+  opacity: var(--icon-opacity);
+  cursor: var(--cursor);
+}
+
+.nav-arrows-plugin-btn:hover:not(.is-disabled) {
+  opacity: var(--icon-opacity-hover);
+  background: var(--background-modifier-hover);
+}
+
+.nav-arrows-plugin-btn.is-disabled {
+  opacity: 0.25;
+  cursor: default;
+  pointer-events: none;
+}
