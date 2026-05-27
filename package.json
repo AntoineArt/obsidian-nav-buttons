@@ -1,8 +1,10 @@
 {
   "name": "obsidian-nav-buttons",
+  "version": "1.0.3",
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "npm run lint",
     "lint": "eslint ."
   },
   "devDependencies": {
