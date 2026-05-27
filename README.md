@@ -1,4 +1,4 @@
-# Obsidian Nav Arrows
+# Nav Arrows
 
 Navigate back and forward with arrows in the top bar, right next to the sidebar collapse button.
 
